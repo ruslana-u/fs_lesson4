@@ -1,0 +1,33 @@
+/* Застосовується до всіх тегів a на сторінці, вага 1 */
+a{
+  text-decoration: none;
+  color: rgb(21, 175, 175);
+}
+/* Застосовується до тегу a з вказаним атрибутом, вкладений в div, вага 13 */
+div section a[href*="ithillel"]{
+  color: rgb(83, 204, 115);
+}
+div .first_par{
+  color: blueviolet;
+}
+div > p{
+  color: aqua;
+}
+div section p{
+  color: pink;
+}
+div section ~ p {
+  color: green;
+}
+div section + p{
+  color: blue;
+}
+div #last_par{
+  color: red;
+}
+div section div p{
+  color: black;
+}
+div section div section .par{
+  color: yellowgreen;
+}

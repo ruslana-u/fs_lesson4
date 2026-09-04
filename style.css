@@ -20,7 +20,7 @@ div section ~ p {
   color: green;
 }
 div section + p{
-  color: blue;
+  color: rgb(41, 148, 214);
 }
 div #last_par{
   color: red;
